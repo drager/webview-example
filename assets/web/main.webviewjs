@@ -1,0 +1,11 @@
+function main() {
+  const app = document.querySelector('#app')
+  app.setAttribute('style', 'background-color: red;')
+
+  const h1 = document.createElement('h1')
+
+  h1.innerText = 'Hello world'
+  app.appendChild(h1)
+}
+
+main()
